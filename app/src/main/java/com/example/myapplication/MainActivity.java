@@ -40,10 +40,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_orders);
         init();
-        //TODO
-        DataBinding.saveBearerToken("Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impsc3BxZ2hjeHh3eGp6enBmbHJmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDcwMzI5MjksImV4cCI6MjA2MjYwODkyOX0.zOLj7zlQfyMTVmUZP8ERMDpyaMrtLEIcVTm37tYPuYw");
-        DataBinding.saveUuidUser("6a86d7e2-b7cb-4fbd-ae22-cb656e68250f");
-        //TODO
+
         getAllOrders();
         getCurrentUser();
     }

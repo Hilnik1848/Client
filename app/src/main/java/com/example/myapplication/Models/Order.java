@@ -1,8 +1,5 @@
 package com.example.myapplication.Models;
 
-
-
-
     public class Order {
         private int id;
         private String name;

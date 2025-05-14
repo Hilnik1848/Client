@@ -3,7 +3,6 @@ package com.example.myapplication.Models;
 public class Profile {
         private String id;
         private String username;
-
         private String avatar_url;
 
     public String getId() {

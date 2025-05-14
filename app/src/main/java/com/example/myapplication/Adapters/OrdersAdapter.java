@@ -40,7 +40,6 @@ public class OrdersAdapter extends RecyclerView.Adapter<OrdersAdapter.ViewHolder
         holder.nameTxV.setText(order.getName());
         holder.dateTxV.setText(order.getDate());
         holder.catNameTxV.setText(order.getCategory().getName());
-        // TODO
         String url = "https://jlspqghcxxwxjzzpflrf.supabase.co/storage/v1/object/public/imegeorder/";
         Glide.with(context)
                 .load(url + order.getAvatar_name())
